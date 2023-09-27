@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useSnapshot } from "valtio";
 // import config from "../config/config";
@@ -15,10 +15,10 @@ import {
   // Tab,
 } from "../components";
 
-const Customizer = () => {
-  const snap = useSnapshot(state);
+// const Customizer = () => {
+//   const snap = useSnapshot(state);
 
-  return <AnimatePresence>{!snap.intro && <>Costomizer</>}</AnimatePresence>;
-};
+//   return <AnimatePresence>{!snap.intro && <>Costomizer</>}</AnimatePresence>;
+// };
 
-export default Customizer;
+// export default Customizer;
